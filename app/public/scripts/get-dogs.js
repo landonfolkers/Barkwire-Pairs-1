@@ -15,6 +15,6 @@ const addDogsToPage = dogs => {
                 <img class="profile-picture" src="/${dog.profilePicture}" alt="${dog.name}" />
                 <p class="bio">${dog.bio}</p>
             </li>
-        `
+        `;
     })
 }
